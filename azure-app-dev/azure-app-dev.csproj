@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_dev</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/d5bdd98a-c126-4728-8f20-b55448cd64a0/resourcegroups/azure-app-dev20250731154848ResourceGroup/providers/microsoft.insights/components/azure-app-dev</ApplicationInsightsResourceId>
+    <UserSecretsId>a9387f0a-0d0d-4caa-b55d-151819f733d2</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
